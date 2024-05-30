@@ -548,8 +548,7 @@
     ],
     "tests": {
         "extensions": [
-            "kiwi",
-            "tiger"
+            "cloudscimwebservices"
         ],
         "annotations": [
             "UnitTests",
