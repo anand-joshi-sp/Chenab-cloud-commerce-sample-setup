@@ -1,9 +1,10 @@
 {
-    "commerceSuiteVersion": "2211.20",
+    "commerceSuiteVersion": "2211.16",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
-        "mediaconversionbackoffice"
+        "mediaconversionbackoffice",
+		"cloudscimwebservices "
     ],
     "storefrontAddons": [
         {
@@ -295,9 +296,9 @@
                     "contextPath": "/merchandisingcmswebservices"
                 },
 				{
-                    "name": "cloudscimwebservices",
-                    "contextPath": "/scim"
-                }
+               "name":"cloudscimwebservices",
+               "contextPath":"/scim"
+            }
             ]
         },
         {
@@ -548,7 +549,8 @@
     ],
     "tests": {
         "extensions": [
-            "cloudscimwebservices"
+            "kiwi",
+            "tiger"
         ],
         "annotations": [
             "UnitTests",
