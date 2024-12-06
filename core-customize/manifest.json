@@ -3,8 +3,7 @@
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
-        "mediaconversionbackoffice",
-		"cloudscimwebservices"
+        "mediaconversionbackoffice"
     ],
     "storefrontAddons": [
         {
@@ -294,11 +293,7 @@
                 {
                     "name": "merchandisingcmswebservices",
                     "contextPath": "/merchandisingcmswebservices"
-                },
-				{
-               "name":"cloudscimwebservices",
-               "contextPath":"/scim"
-            }
+                }
             ]
         },
         {
