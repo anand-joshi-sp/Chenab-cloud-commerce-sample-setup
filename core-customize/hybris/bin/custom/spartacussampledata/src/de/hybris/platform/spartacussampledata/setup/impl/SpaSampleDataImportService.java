@@ -8,8 +8,6 @@ package de.hybris.platform.spartacussampledata.setup.impl;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Required;
-
 import de.hybris.platform.addonsupport.setup.impl.DefaultAddonSampleDataImportService;
 import de.hybris.platform.catalog.jalo.SyncItemCronJob;
 import de.hybris.platform.catalog.jalo.SyncItemJob;
@@ -186,7 +184,6 @@ public class SpaSampleDataImportService extends DefaultAddonSampleDataImportServ
 		return modelService;
 	}
 
-	@Required
 	public void setModelService(final ModelService modelService)
 	{
 		this.modelService = modelService;
